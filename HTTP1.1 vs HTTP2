@@ -1,0 +1,34 @@
+//                 HTTP/1.1                                HTTP2
+           *  HTTP/1.1 is not secure.              *  HTTP2 is more secure.
+           *  HTTP/1.1  loads page faster.         *  HTTP2 avoid network delay and mush faster.
+           * it has 3 TCP connections.             * it has single TCP connection.
+
+
+           Object is a most important data-type and forms the building blocks for JavaScript.Each object may contain any combination of  primitive data-types as well as reference data-types. the referance data types are 1. Number, 2.String, 3.Boolean, 4.null, 5.undefined and 6.symbol.
+            Eg.  
+             let person ={
+                 firstname :"john",
+                 lastname:"michale",
+                 age:"35"
+             }
+
+
+              let student ={
+      name:"mei",
+      age:"18",
+      class: "12th std",
+    gender:"male",
+      address :{
+           city: "trichy",
+           state: "tamil nadu",
+           nationality:" indian",
+      }
+ }
+  console.log(student.name);
+  console.log(student.address);
+
+ 
+ output:
+   
+    mei 
+ {city: "trichy", state: "tamil nadu", nationality: " indian"} 
